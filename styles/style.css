@@ -67,12 +67,23 @@ main div h3 {
 	margin-top: 50px;
 }
 
-.no_aside_div table {
+table {
 	margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
 }
 
 .no_aside_div p {
 	margin: 0px;
+}
+
+.no_aside_div li {
+	padding: 5px;
 }
 
 #inbox_div p {
